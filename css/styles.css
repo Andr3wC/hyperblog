@@ -3,6 +3,8 @@ body
     color: #333;
     font-family: "Arial";
     font-size: 16px;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -17,4 +19,21 @@ body
 #container h1
 {
     font-size: 20px;
+}
+
+#header
+{
+    background: #33a;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5 );
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#header #tagline
+{
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 0 0 0 1em;
 }

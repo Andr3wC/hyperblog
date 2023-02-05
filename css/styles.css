@@ -11,7 +11,8 @@ body
 #container
 {
     border: 1px solid #ddd;
-    padding: 1em;
+    margin: 0 auto;
+    padding: 0;
     text-align: left;
     width: 70%;
 }
@@ -19,6 +20,14 @@ body
 #container h1
 {
     font-size: 20px;
+}
+
+#footer
+{
+    background: #777;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
 }
 
 #header
@@ -36,4 +45,9 @@ body
     font-size: 0.8em;
     font-weight: normal;
     padding: 0 0 0 1em;
+}
+
+#post
+{
+    padding: 1em;
 }

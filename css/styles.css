@@ -23,6 +23,14 @@ body
     font-size: 20px;
 }
 
+#footer
+{
+    background: #777;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
 #header
 {
     background: #37488b;
